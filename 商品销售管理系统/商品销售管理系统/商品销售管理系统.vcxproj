@@ -23,6 +23,9 @@
     <ClInclude Include="order.h" />
     <ClInclude Include="persistence.h" />
     <ClInclude Include="product.h" />
+    <ClInclude Include="purchase.h" />
+    <ClInclude Include="reorder.h" />
+    <ClInclude Include="report.h" />
     <ClInclude Include="user.h" />
     <ClInclude Include="utils.h" />
   </ItemGroup>
@@ -32,6 +35,9 @@
     <ClCompile Include="order.c" />
     <ClCompile Include="persistence.c" />
     <ClCompile Include="product.c" />
+    <ClCompile Include="purchase.c" />
+    <ClCompile Include="reorder.c" />
+    <ClCompile Include="report.c" />
     <ClCompile Include="user.c" />
     <ClCompile Include="utils.c" />
   </ItemGroup>

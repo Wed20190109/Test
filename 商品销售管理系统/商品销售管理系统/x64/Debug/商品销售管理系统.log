@@ -1,2 +1,6 @@
 ﻿  main.c
-  商品销售管理系统.vcxproj -> C:\Code\FinalTest\商品销售管理系统\x64\Debug\商品销售管理系统.exe
+  purchase.c
+  reorder.c
+  report.c
+  正在生成代码...
+  商品销售管理系统.vcxproj -> C:\Code\Test\商品销售管理系统\x64\Debug\商品销售管理系统.exe

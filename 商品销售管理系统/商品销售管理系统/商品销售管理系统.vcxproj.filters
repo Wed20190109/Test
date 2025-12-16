@@ -33,6 +33,15 @@
     <ClInclude Include="user.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="report.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="reorder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="purchase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.c">
@@ -54,6 +63,15 @@
       <Filter>Resource Files</Filter>
     </ClCompile>
     <ClCompile Include="user.c">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="purchase.c">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="reorder.c">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="report.c">
       <Filter>Resource Files</Filter>
     </ClCompile>
   </ItemGroup>
