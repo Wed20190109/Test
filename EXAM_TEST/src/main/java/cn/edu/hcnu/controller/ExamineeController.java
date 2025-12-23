@@ -11,7 +11,4 @@ public class ExamineeController {
     @Autowired
     private ExamineeService examineeService;
 
-    @GetMapping("/getAllExaminee")
-@ResponseBody
-public List<Examinee> get
-}
+ @Req

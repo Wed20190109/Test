@@ -13,11 +13,18 @@ public class ExamineeService {
     @Autowired
     private ExamineeMapper examineeMapper;
     public List<Examinee> getAllExaminee(){
+
         return examineeMapper.selectAllExaminee();
     }
     public int deleteExaminee(int id){
+
         return examineeMapper.deleteByPrimaryKey(id);
     }
-
-
+    public int addExaminee(Examinee record) {
+        return examineeMapper.insert(record);
+    }
+    public int updateExaminee(Examinee record) {
+        return examineeMapper.update(record);
+    }
 }
+
